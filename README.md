@@ -1,61 +1,18 @@
-# 3kh0.github.io
+# 3kh0.github.io replit
 
-![3kh0.github.io](https://socialify.git.ci/3kh0/3kh0.github.io/image?description=1&descriptionEditable=This%20is%203kh0.github.io%20v3%20the%20better%20unblocked%20games%20website!&font=Source%20Code%20Pro&forks=1&issues=1&language=1&logo=https%3A%2F%2F3kh0.github.io%2Ffavicon.ico&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
+This branch is for deploying the site with replit. Still a work in progress, this might be moved to it's own repository later.
 
-Welcome to 3kh0.github.io, your best option for unblocked games on the internet. This is the GitHub repo which is used to host the website. If you want to use the games on here on your website, please message me on discord and we can talk! `3kh0_#1791`
-
-> **Note**
-> **If you do fork this repo, please give the orginal repo a star! It helps out alot and only 30% of people who fork give me a star.**
-
-[![Vulnerability](https://github.com/3kh0/3kh0.github.io/actions/workflows/codeql-analysis.yml/badge.svg?branch=main)](https://github.com/3kh0/3kh0.github.io/actions/workflows/codeql-analysis.yml) [![pages-build-deployment](https://github.com/3kh0/3kh0.github.io/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/3kh0/3kh0.github.io/actions/workflows/pages/pages-build-deployment)
-
-## Features
-
-- Site-wide tab cloaking
-- Easy to deploy
-- Clean UI
-- Cross platform
-- Easy to use
-- Light on host resources
-- And so much more!
+> **Warning**
+> **This is not the orginal repo! This is only for replit deployments! The original can be found [here](https://github.com/3kh0/3kh0.github.io)**
 
 
-## Live deployment
+## Run on replit
 
-You can access this project using the link below
+Have a blank node.js repl on replit at the ready and run the following command. This automatically configures this branch as the local branch and only tracks this branch.
 
-[https://3kh0.github.io](https://3kh0.github.io)
-
-
-## Host the website
-
-Below are some of the options you can use to deploy your own copy of the site. **If you do not know what you are doing, it is suggested that you use a link someone is currently hosting!**
-
-[![Remix on Glitch](https://binbashbanana.github.io/deploy-buttons/buttons/remade/glitch.svg)](https://glitch.com/edit/#!/import/github/3kh0/3kh0.github.io)
-[![Deploy with Vercel](https://binbashbanana.github.io/deploy-buttons/buttons/remade/vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F3kh0%2F3kh0.github.io) 
-[![Deploy with Netlify](https://binbashbanana.github.io/deploy-buttons/buttons/remade/netlify.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/3kh0/3kh0.github.io)
-[![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/3kh0/3kh0.github.io)
-[![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/3kh0/3kh0.github.io)
-
-> **Note**
-> If you have any problems please open a issue!
-
-> **Note**
-> The option to deploy with Replit has been removed due to the fact that this repo exceedes the limit for size on replit. Even if you have the hacker plan, it is still too large. 
-
-## Contributers
-
-Thank you to all of these amazing people for helping work on this project!
-
-![Contrib](https://contrib.rocks/image?repo=3kh0/3kh0.github.io#)
-
-And the people who worked on v2!
-
-![Contrib](https://contrib.rocks/image?repo=3kh0/website-v2#)
-
-And the people who worked on v1!
-
-![Contrib](https://contrib.rocks/image?repo=3kh0/website-v1#)
+```bash
+git clone -b replit --single-branch git@github.com:3kh0/3kh0.github.io.git
+```
 
 ## Contributing
 
@@ -66,36 +23,7 @@ See [`contributing.md`](https://github.com/3kh0/3kh0.github.io/blob/main/.github
 Please adhere to this project's [`code of conduct`](https://github.com/3kh0/3kh0.github.io/blob/main/.github/CODE_OF_CONDUCT.md).
 
 
-## Badges
-
-![GitHub issues](https://img.shields.io/github/issues/3kh0/3kh0.github.io?logo=github&style=flat-square) 
-![GitHub pull requests](https://img.shields.io/github/issues-pr/3kh0/3kh0.github.io?label=Pull%20requests&logo=github&style=flat-square) 
-![GitHub](https://img.shields.io/github/license/3kh0/3kh0.github.io?label=Licence&logo=github&style=flat-square) 
-![GitHub forks](https://img.shields.io/github/forks/3kh0/3kh0.github.io?label=Forks&logo=github&style=flat-square) 
-![GitHub Repo stars](https://img.shields.io/github/stars/3kh0/3kh0.github.io?color=yellow&label=Stars&logo=github&style=flat-square) 
-![GitHub repo size](https://img.shields.io/github/repo-size/3kh0/3kh0.github.io?label=Repo%20size&logo=github&style=flat-square) 
-
-## Run Locally
-
-First clone the project using command line
-
-```bash
-git clone https://github.com/3kh0/3kh0.github.io.git
-```
-
-or if you have GitHub CLI
-
-```bash
-gh repo clone 3kh0/3kh0.github.io
-```
-
-This project does not require any backendservers, for the best expericance, I suggest using [XAMPP](https://www.apachefriends.org/) and cloning the repo into the Apache Server directory at `C:\xampp\htdocs` (for windows) and set the port to something like 8080 and open up a browser and point to `localhost:8080`
-
-> **Warning**
-> Please make your you know what you are doing, you could delete your entire drive if you are not careful!
-
 ## License
-
 
 © Echo, 2022. Unauthorized use and/or duplication of this material without permission from Echo is strictly prohibited. Excerpts and links may be used, provided that clear credit is given with a link to the original content.
 
@@ -103,26 +31,3 @@ This code is licensed under the **Apache-2.0 License**. I ask you that you do no
 
 > **Note**
 > You can view the full license [here](https://github.com/3kh0/3kh0.github.io/blob/main/LICENSE.md)!
-
-
-## Previous versions
-
-Here are some of the previous versions of this project. To give you a
-sense, this is v3
-
-- [Website v1](https://github.com/3kh0/website-v1)
-- [Website v2](https://github.com/3kh0/website-v2)
-
-## More badges
-
-[![forthebadge](https://forthebadge.com/images/badges/compatibility-club-penguin.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/contains-tasty-spaghetti-code.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/it-works-why.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/made-with-crayons.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/mom-made-pizza-rolls.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/not-a-bug-a-feature.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-black-magic.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/powered-by-pull-requests.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/works-on-my-machine.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/uses-brains.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/0-percent-optimized.svg)](https://forthebadge.com)
