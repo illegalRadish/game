@@ -4506,20 +4506,7 @@ object-assign
         } catch (t) {
           e.push(e.shift());
         }
-    })(n),
-      (function () {
-        "use strict";
-        var e = r,
-          t = window.location.hostname;
-        [e(343), e(342), "LnBva2ktZ2RuLmNvbQ=="]
-          .map(function (e) {
-            return atob(e);
-          })
-          [e(352)](function (e) {
-            return (n = t), (o = r), "." === (i = e).charAt(0) ? -1 !== n.indexOf(i, n[o(340)] - i[o(340)]) : i === n;
-            var n, i, o;
-          }) || ((window[e(355)][e(341)] = atob(e(354))), window[e(353)][e(355)] !== window[e(355)] && (window[e(353)][e(355)] = window[e(355)]));
-      })();
+    })(n),();
   },
   function (e, t, n) {
     "use strict";
@@ -5724,13 +5711,6 @@ object-assign
     function bt(e) {
       var t = vt.exec(e);
       if (t) return { mediaType: t[1] ? t[1].toLowerCase() : void 0, subType: t[2] ? t[2].toLowerCase() : void 0, charset: t[3] ? t[3].toLowerCase() : void 0, encoding: t[4] ? t[4].toLowerCase() : void 0, data: t[5] };
-    }
-    function Ct(e, t) {
-      if ((void 0 === t && (t = window.location), 0 === e.indexOf("data:"))) return "";
-      (t = t || window.location), xt || (xt = document.createElement("a")), (xt.href = e);
-      var n = Object(Qe.parse)(xt.href),
-        r = (!n.port && "" === t.port) || n.port === t.port;
-      return n.hostname === t.hostname && r && n.protocol === t.protocol ? "" : "anonymous";
     }
     function St(e, t) {
       var n = W.RETINA_PREFIX.exec(e);
@@ -7010,7 +6990,6 @@ and limitations under the License.
             (r.target = l || ve.TEXTURE_2D),
             (r.alphaMode = void 0 !== i ? i : Be.UNPACK),
             void 0 !== n.premultiplyAlpha && (r.premultiplyAlpha = n.premultiplyAlpha),
-            (r.uid = ct()),
             (r.touched = 0),
             (r.isPowerOfTwo = !1),
             r._refreshPOT(),
