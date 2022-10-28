@@ -18,8 +18,10 @@ NOTE: Make sure you refresh the page! Sometimes you will not get the lastest upd
 - Means something was removed
 ------------------------------------------------------------
 Oct, 27
++ Added Stick man hook
 + Added Offline Paradise
 + Added Replit Deployment!
+^ Added more reviews
 ------------------------------------------------------------
 Oct, 24
 + Added more reviews
