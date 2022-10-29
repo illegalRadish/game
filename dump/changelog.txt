@@ -17,6 +17,14 @@ NOTE: Make sure you refresh the page! Sometimes you will not get the lastest upd
 ^ Means something was upgraded or changed
 - Means something was removed
 ------------------------------------------------------------
+Oct, 29
++ Added Waterworks!
+------------------------------------------------------------
+Oct, 28
++ Added Flippy Fish
++ Added Frying Nemo
+^ Added more reviews
+------------------------------------------------------------
 Oct, 27
 + Added Stick man hook
 + Added Offline Paradise
